@@ -1,0 +1,19 @@
+{
+  "url": {
+    "sandbox_v2_base": "https://uat-api.3ona.co/v2/",
+    "sandbox_v1_base": "https://uat-api.3ona.co/v1/",
+    "prod_v2_base": "https://api.crypto.com/v2/",
+    "prod_v1_base": "https://api.crypto.com/v1/",
+    "default_base": "https://api.crypto.com/v2/"
+  },
+  "keys": {
+    "api_key": "None",
+    "secret_api_key": "None"
+  },
+  "orders": {
+    "CRO_USDC": {
+      "USDC_per_order": 1,
+      "Times": ["01:00", "04:00", "07:00", "10:00", "13:00", "16:00", "19:00", "22:00"]
+    }
+  }
+}

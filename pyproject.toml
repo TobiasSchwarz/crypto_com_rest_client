@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "crypto_com_rest_client"
+version = "0.1.0"
+description = ""
+authors = ["Tobias Schwarz <st160363@stud.uni-stuttgart.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.26.0"
+schedule = "^1.1.0"
+pytest = "^6.2.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
